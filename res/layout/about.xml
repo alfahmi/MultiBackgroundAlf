@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="100px"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:background="@color/mtrl_blue2">
+
+		<com.multibg.TextView
+			android:id="@+id/text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="NXF"
+			android:textSize="60dip"
+			android:textColor="#ffffff" />
+		
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center"
+		android:orientation="vertical" >
+		
+		<TextView
+			android:id="@+id/text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Alfahmi Ahmad"
+			android:textSize="20dip"
+			android:textColor="#000000" />
+
+		<TextView
+			android:id="@+id/text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Source From Beginner"
+			android:textSize="18dip"
+			android:textColor="#000000" />
+
+	</LinearLayout>
+
+</LinearLayout>

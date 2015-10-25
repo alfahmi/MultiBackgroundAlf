@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+		android:icon="@drawable/abs__ic_menu_moreoverflow_normal_holo_dark"
+		android:showAsAction="ifRoom">
+	
+		<menu>
+		
+		<item
+			android:id="@+id/light"
+			android:orderInCategory="1"
+			android:showAsAction="never"
+			android:title="Light"
+			android:icon="@drawable/light_icon" />
+		
+		<item
+			android:id="@+id/pink"
+			android:orderInCategory="2"
+			android:showAsAction="never"
+			android:title="Pink" 
+			android:icon="@drawable/pink_icon" />
+		<item
+			android:id="@+id/green"
+			android:orderInCategory="3"
+			android:showAsAction="never"
+			android:title="Green"
+			android:icon="@drawable/green_icon" />
+	
+		<item
+			android:id="@+id/about"
+			android:orderInCategory="4"
+			android:showAsAction="never"
+			android:title="About"
+			android:icon="@drawable/about_icon" />
+		
+		</menu>
+	
+	</item>
+    
+</menu>
